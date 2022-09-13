@@ -1,4 +1,4 @@
 # Work For NeXT CS
-### Name: Jordan
+### Name: Jordan Leung
 ### Class Period: 4 
 ---
