@@ -22,7 +22,7 @@ void makeLines(int[] xs, int[] ys, int points){
   }
 }
 void drawLines(int[] xs, int[] ys){
-  for(int i = 0; i < xs.length -1; i ++){
+  for(int i = 0; i < numPoints; i ++){
     line(xs[i], ys[i], xs[i+1], ys[i+1]);
     
   }
