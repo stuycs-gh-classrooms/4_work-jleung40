@@ -15,6 +15,7 @@ void makeLines(int[] xs, int[] ys, int points){
     //if(i < xs.length){
       xs[i] = int(random(0, width));
       ys[i] = int(random(0, height));
+      numPoints++;
     //}
     //else{
     //}
