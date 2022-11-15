@@ -59,12 +59,12 @@ void moveLines(int[] xs, int[] ys, int xMod, int yMod){
         for (int i=0; i < numPoints; i++) {
           ys[i] += yMod;}
     } 
-  } else if (keyCode == LEFT) {
+   else if (keyCode == LEFT) {
       for (int i=0; i < numPoints; i++) {
-         xs[i] += xMod;}
+         xs[i] -= xMod;}
   } else if (keyCode == RIGHT){
     for (int i=0; i < numPoints; i++) {
-         xs[i] -= xMod;}
+         xs[i] += xMod;}
   }
   
-}
+}}
