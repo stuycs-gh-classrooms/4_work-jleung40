@@ -78,15 +78,11 @@ void liveFire(Land[][] field) {
     }//set nextStates for all plots
   
     //Based on potential state changes from updateNextState
-    for (int i=0; i<field.length; i++) {
+    for (int i=0; i<field[r].length; i++) {
       field[r][i].changeState();
     }//change states
   }
 }//liveFire
-
-
-
-
 
 void keyPressed() {
   if (key == ' ') {
